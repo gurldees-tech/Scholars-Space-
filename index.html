@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholars Space — Your Path to Admission, Simplified</title>
+<meta name="description" content="Scholars Space helps admission seekers explore universities, check their admission chances, and get expert guidance — all in one trusted place.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%230A1E3F%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 text-anchor=%22middle%22 fill=%22%23D9B84B%22 font-family=%22Georgia%22>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="seal">
+        <svg width="34" height="34" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="19" stroke="#D9B84B" stroke-width="1.4"/>
+          <circle cx="20" cy="20" r="14.5" stroke="#D9B84B" stroke-width="1"/>
+          <path d="M20 12 L22.4 17.6 L28.4 18.2 L23.9 22.1 L25.2 28 L20 24.8 L14.8 28 L16.1 22.1 L11.6 18.2 L17.6 17.6 Z" fill="#D9B84B"/>
+        </svg>
+      </span>
+      <span class="brand-name">Scholars<span>Space</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="university-explorer.html">University Explorer</a>
+      <a href="find-my-chances.html">Find My Chances</a>
+      <a href="student-services.html">Student Services</a>
+      <a href="admission-news.html">Admission News</a>
+      <a href="daily-quiz.html">Daily Quiz</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="find-my-chances.html" class="btn btn-gold btn-sm header-cta">Check My Chances</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <svg class="hero-seal" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="20" cy="20" r="19" stroke="#D9B84B" stroke-width="0.6"/>
+    <circle cx="20" cy="20" r="14.5" stroke="#D9B84B" stroke-width="0.5"/>
+    <path d="M20 12 L22.4 17.6 L28.4 18.2 L23.9 22.1 L25.2 28 L20 24.8 L14.8 28 L16.1 22.1 L11.6 18.2 L17.6 17.6 Z" fill="#D9B84B"/>
+  </svg>
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-eyebrow">🎓 Trusted by admission seekers nationwide</span>
+        <h1>Your path to university admission, <em>made clear.</em></h1>
+        <p class="lead">Explore verified university requirements, check your realistic admission chances, and get expert guidance — all in one trustworthy space built for students like you.</p>
+        <div class="hero-actions">
+          <a href="find-my-chances.html" class="btn btn-gold">Find My Chances</a>
+          <a href="university-explorer.html" class="btn btn-outline">Explore Universities</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>120+</b><span>Universities Listed</span></div>
+          <div class="stat"><b>15k+</b><span>Students Guided</span></div>
+          <div class="stat"><b>98%</b><span>Would Recommend</span></div>
+        </div>
+      </div>
+
+      <div class="search-card">
+        <h3>Search a university or course</h3>
+        <p class="sub">Find cut-off marks, fees and requirements in seconds.</p>
+        <form id="heroSearchForm">
+          <div class="search-row">
+            <input type="text" id="heroSearchInput" placeholder="e.g. University of Lagos, Law..." aria-label="Search universities or courses">
+            <button type="submit">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" style="vertical-align:-2px;margin-right:4px;display:inline-block"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              Search
+            </button>
+          </div>
+          <div class="search-tags">
+            <button type="button" data-tag="UNILAG">UNILAG</button>
+            <button type="button" data-tag="Medicine">Medicine</button>
+            <button type="button" data-tag="Low cut-off">Low cut-off</button>
+            <button type="button" data-tag="Polytechnics">Polytechnics</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust strip -->
+<div class="container">
+  <div class="trust-strip">
+    <div class="t-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Verified university data
+    </div>
+    <div class="t-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
+      Privacy-first, no login required
+    </div>
+    <div class="t-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+      Updated admission info
+    </div>
+    <div class="t-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21a8 8 0 1 0-16 0"/><circle cx="12" cy="7" r="4"/></svg>
+      Built for every admission seeker
+    </div>
+  </div>
+</div>
+
+<!-- ============ QUICK ACCESS ============ -->
+<section class="section" id="explore">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Get started</span>
+        <h2 class="section-title">Everything you need for admission, in one space</h2>
+      </div>
+      <p class="section-sub">Four simple tools designed to take the guesswork out of your admission journey.</p>
+    </div>
+
+    <div class="grid grid-4">
+      <a href="university-explorer.html" class="card quick-card">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/><path d="M9 9h.01M15 9h.01M12 9h.01M9 13h.01M15 13h.01M12 13h.01"/></svg>
+        </span>
+        <h3>University Explorer</h3>
+        <p>Browse verified fees, cut-off marks, courses and requirements for schools nationwide.</p>
+        <span class="go">Explore now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </a>
+
+      <a href="find-my-chances.html" class="card quick-card">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+        </span>
+        <h3>Find My Chances</h3>
+        <p>Enter your JAMB score to get an honest estimate of your admission chances.</p>
+        <span class="go">Check my odds
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </a>
+
+      <a href="student-services.html" class="card quick-card">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+        </span>
+        <h3>Student Services</h3>
+        <p>Get hands-on help with forms, admission letters, change of course and more.</p>
+        <span class="go">See services
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </a>
+
+      <a href="daily-quiz.html" class="card quick-card">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.2 2.4c-.9.3-1.2.8-1.2 1.6"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </span>
+        <h3>Daily Quiz</h3>
+        <p>Sharpen your knowledge with quick admission and general study quizzes.</p>
+        <span class="go">Play today's quiz
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="section band">
+  <div class="container text-center">
+    <span class="eyebrow" style="justify-content:center">Not sure where to start?</span>
+    <h2 class="section-title" style="max-width:640px;margin:0 auto 18px">Let's find out how ready you really are</h2>
+    <p style="max-width:520px;margin:0 auto 32px">Enter your JAMB score and preferred course to get an honest, no-login-required estimate of your admission chances.</p>
+    <a href="find-my-chances.html" class="btn btn-gold">Find My Chances Now</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="margin-bottom:14px">
+          <span class="seal">
+            <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="19" stroke="#D9B84B" stroke-width="1.4"/>
+              <path d="M20 12 L22.4 17.6 L28.4 18.2 L23.9 22.1 L25.2 28 L20 24.8 L14.8 28 L16.1 22.1 L11.6 18.2 L17.6 17.6 Z" fill="#D9B84B"/>
+            </svg>
+          </span>
+          <span class="brand-name">Scholars<span>Space</span></span>
+        </a>
+        <p>Helping admission seekers find clarity, confidence and the right path into university — without the stress.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.9.25-1.5 1.55-1.5H16.6V4.3c-.28-.04-1.25-.12-2.37-.12-2.35 0-3.95 1.43-3.95 4.06V10.4H7.6v3h2.68V21h3.22Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 3H21l-6.7 7.7L22.2 21h-6.2l-4.8-6.2L5.6 21H3.5l7.2-8.2L2 3h6.3l4.4 5.7L18.9 3Zm-1.1 16.1h1.2L7.3 4.8H6l11.8 14.3Z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="university-explorer.html">University Explorer</a></li>
+          <li><a href="find-my-chances.html">Find My Chances</a></li>
+          <li><a href="student-services.html">Student Services</a></li>
+          <li><a href="daily-quiz.html">Daily Quiz</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Scholars Space</a></li>
+          <li><a href="admission-news.html">Admission News</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li>hello@scholarsspace.com</li>
+          <li>+234 800 000 0000</li>
+          <li>Mon – Sat, 9am – 6pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Scholars Space. All rights reserved.</span>
+      <span>Built to make admission simple, honest and accessible.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WELCOME MODAL ============ -->
+<div class="modal-overlay welcome-modal" id="welcomeModal">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="modal-body">
+      <span class="seal">
+        <svg width="52" height="52" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="19" stroke="#C9A227" stroke-width="1.4"/>
+          <circle cx="20" cy="20" r="14.5" stroke="#C9A227" stroke-width="1"/>
+          <path d="M20 12 L22.4 17.6 L28.4 18.2 L23.9 22.1 L25.2 28 L20 24.8 L14.8 28 L16.1 22.1 L11.6 18.2 L17.6 17.6 Z" fill="#C9A227"/>
+        </svg>
+      </span>
+      <h2>Welcome to Scholars Space</h2>
+      <p>What should we call you? We'll use it to personalize your experience — nothing else.</p>
+      <form id="welcomeForm">
+        <input type="text" id="welcomeName" placeholder="Enter your first name" maxlength="30" autocomplete="given-name" required>
+        <button type="submit" class="btn btn-gold btn-block">Continue</button>
+      </form>
+      <button class="skip" id="modalSkip" type="button">Maybe later</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FLOATING WHATSAPP ============ -->
+<a class="wa-float" href="https://wa.me/2348000000000?text=Hello%20Scholars%20Space%2C%20I%20need%20help%20with%20my%20admission." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <span class="ping"></span>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.06L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Zm0 18a7.94 7.94 0 0 1-4.06-1.11l-.29-.17-3.03.79.81-2.95-.19-.3A7.95 7.95 0 1 1 12 20Zm4.38-5.85c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.46-.39-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/></svg>
+</a>
+
+<!-- ============ TOAST ============ -->
+<div class="toast" id="toast"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
